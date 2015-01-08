@@ -1,0 +1,112 @@
+body {
+	background: #fff;
+}
+
+#header {
+	text-align: right;
+	height: 50px;
+	padding-right: 15px;
+	padding-top: 10px;
+}
+
+.headerright li{
+	display: inline;	
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	padding: 7px;
+}
+
+.headerright li img {
+	vertical-align: middle;
+}
+
+
+#logo {
+	text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 150px;
+}
+
+#logo img {
+	height: 95px;
+}
+
+#form {
+    text-align: center;
+   
+}
+
+#footer {
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 1px;
+	background-color: #eee;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+#footer ul li {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+a:link {
+	color: #444;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #fff;
+}
+
+.footerleft {
+	float: left;
+	margin-left: 10px;
+	padding-top: 10px;
+
+
+}
+
+.footerright {
+	float: right;
+	margin-right: 20px;
+	padding-top: 10px;
+
+
+}
+
+.searchbox {
+	background-image: url(../images/mic.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	width: 560px;
+	height: 26px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.button {
+	width: 115px;
+	height: 30px;
+	background-color: #eee;
+	-webkit-appearance: none;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	margin: 5px;
+	font-weight: bold;
+}
